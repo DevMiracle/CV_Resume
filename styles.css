@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.container .left-side {
+    position: relative;
+    background-color: #2b313d;
+    padding: 60px;
+
+}
+
+.profile-photo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-photo .img-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo .img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact {
+    color: white;
+    font-size: 1em;
+    margin-top: 70px;
+    text-align: left;
+    border-bottom: 3px solid;
+    width: 50px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 12px;
+}
+
+.contact-info ul {
+    position: relative;
+}
+
+.contact-info li {
+    position: relative;
+    list-style: none;
+    padding: 8px 0px;
+    line-height: 1.6;
+}
+
+.titles {
+    font-size: larger;
+}
+
+.education {
+    color: white;
+    font-size: 1em;
+    margin-top: 70px;
+    text-align: left;
+    border-bottom: 3px solid;
+    width: 50px;
+}
+
+.education h2 {
+    margin-bottom: 20px;
+}
+
+.education-info {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 12px;
+}
+
+.education-info ul {
+    position: relative;
+}
+
+.education-info li {
+    position: relative;
+    list-style: none;
+    padding: 8px 0px;
+    line-height: 1.6em;
+}
+
+.language {
+    color: white;
+    font-size: 1em;
+    margin-top: 70px;
+    text-align: left;
+    border-bottom: 3px solid;
+    width: 50px;
+}
+
+.language h2 {
+    margin-bottom: 20px;
+}
+
+.language-info {
+    color: white;
+    font-size: 0.8em;
+    margin-top: 12px;
+}
+
+.language-info ul {
+    position: relative;
+}
+
+.language-info li {
+    position: relative;
+    list-style: none;
+    padding: 8px 0px;
+    line-height: 3em;
+}
+
+
+
+
+
+
+
+
+.container .right-side {
+    position: relative;
+    background-color: white;
+    padding: 60px;
+
+}
+
+.right-side .heading {
+    padding-top: 50px;
+    font-size: larger;
+
+}
+
+.right-side .profile {
+    font-size: 1em;
+    margin-top: 80px;
+    text-align: left;
+    border-bottom: 3px solid;
+    width: 50px;
+}
+
+.right-side h2 {
+    margin-bottom: 20px;
+}
+
+.right-side .profile-text {
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.right-side .exp {
+    font-size: 1em;
+    margin-top: 70px;
+    text-align: left;
+    border-bottom: 3px solid;
+    width: 50px;
+}
+
+.right-side .box {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+    font-size: 0.9em;
+}
+
+.right-side .box .year-company {
+    min-width: 150px;
+}
+
+.right-side .box h4 {
+    margin-bottom: 8px;
+}
+
+.right-side .skills {
+    font-size: 1em;
+    margin-top: 70px;
+    text-align: left;
+    border-bottom: 3px solid;
+    width: 50px;
+}
+
+.right-side .skills-info {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    /* justify-content: start; */
+    gap: 55px;
+}
+
+.right-side .skills-info h6 {
+    padding-bottom: 20px;
+    font-size: 0.8em;
+}
